@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+body, html{
+    width: 100%;
+    background-color: white;
+}
+
+*{
+    font-family: 'Rubik', 'Verdana', 'Sans Serif';
+    color: dodgerblue;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none
+}
+
+a:hover, h1:hover{
+    color: white;
+}
+
+.mainheader{
+    background-color: black;
+    height: 8em;
+    font-family: 'Hind Madurai', 'Courier New';
+    font-size: 3em;
+    color: dodgerblue;
+    padding: none;
+    margin: none;
+    align-self: center;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section>article>header{
+    display: flex;
+    background-color: black;
+    height: 160px;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section>article>header>a{
+    justify-content: center;
+}
+
+.icons{
+    width: 70px;
+    height: 70px;
+}
+
+
+.mainsection{
+    display: flex;
+    height: 400px;
+    padding: 80px;
+    padding-left: 370px;
+    gap: 40px;
+}
+
+.xmlarticle, .jsonarticle, .svgarticle{
+    display: flex;
+    height: 400px;
+    width: 350px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    margin: 0.5em;
+    border-style: groove;
+    flex-direction: column;
+}
+
+.xmlarticle>a>p{
+    color: #f69e30;
+}
+
+.jsonarticle>a>p{
+    color: #9777ab;
+}
+
+.svgarticle>a>p{
+    color: #5153ff;
+}
+
+.other{
+    height: 262px;
+    width: 350px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+footer{
+    background-color: black;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}
+
+
+footer>p:nth-child(2){
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
