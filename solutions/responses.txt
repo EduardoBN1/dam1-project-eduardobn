@@ -1,0 +1,8 @@
+6.
+
+Mail.json uses around 500 bytes while our Mail.xml uses 4 KB of storage. By using the json we would be saving a 800% of the disk space compared to the xml.
+
+11.
+
+The correct answer would be the third one, attributes will never belong to a namespace unless they are specifically applied to them.
+

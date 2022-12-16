@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" lang=""?>
+<!--We would need to add the xml prolog to begin with-->
+
+<!--
+	The "film" tag begins with a capital letter while the closing tag doesn't.
+	We would also need to change the "Runtime" atribute to fit the xml sintax.
+-->
+
+<film Runtime="1h34m">
+	<title>Pirates of Silicon Valley</title>
+	<!--The "director" tag isn't properly closed, the enclosing bar must be placed at the beginning of the tag-->
+	<director>Martyn Burke</director>
+    <!--The "Original Language" tag isn't valid, in this case it could be replaced using the xml:lang atribute-->
+		<description xml:lang="en">
+			Based upon the friendship and eventual breakdown between <strong>Bill Gates</strong> and <strong>Steve Jobs</strong> in the very early startup days of Microsoft and Apple from their home garages. This film does a great job of showing it’s about being the first to have an idea, it’s about who’s first to act on it properly and with passion, exemplified by their "theft" of the first GUI system from Xerox.
+		</description>
+</film>		
